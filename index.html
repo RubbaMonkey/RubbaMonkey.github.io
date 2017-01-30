@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Look@Me Home</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/eyes.png"/>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+		
+		
+		<div class="nav-outer">
+		<div class="nav-wrap">
+			<nav class="navigation">
+				<div class="logo"><img src="img/logo2.png"></div>
+				<div class='nav' nav-menu-style="yoga">
+					<ul class="nav-menu">
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="ladies.html">Ladies</a></li>
+						<li><a href="mens.html">Mens</a></li>
+						<li><a href="designers.html">Designers</a></li>
+					</ul>
+				</div>
+			</nav>			
+		</div>
+		</div>
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+			<section class="slider"> 
+				<ul class="slider1">
+					<li><img src="img/slider-img-1.png"></li>
+					<li><img src="img/slider-img-2.png"></li>
+					<li><img src="img/slider-img-3.png"></li>
+				</ul>
+			</section>
+<!--ADD IMAGE SLIDES HERE-->
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<a name="About us">
+
+<div class="clearfix"></div>
+<!--- START PARALLAX SECTION -->
+	<section class="parallax-1">
+		<div class="parallax-inner">
+			<section class="one-third">
+				<p>Look@me is the leader in high end fashion at low prices,
+			for years we have strived to bring you the hottest fashion at the best prices.
+				</p>
+			</section>
+			<section class="one-third">
+				<h3>	Welcome to Look@Me!	</h3>
+				
+			</section>
+			<section class="one-third">
+			
+				<p>If you want to learn more about our history then make sure to check out our about us page!
+				</p>
+			</section>
+		
+		</div>
+	</section>
+<!--- END PARALLAX SECTION -->
+<div class="clearfix"></div>
+<!--- START BANNER WRAPPER -->
+	<section class="left-col">
+			<h1>	What we do	</h1>
+			<p>What ever you may be looking for you can find it here at look@me we strive to deliver on our promises.
+			</p>
+			<p>We cater to all people, regardless of size, gender, race or age so were sure you'll find something for you.
+			</p>
+			<p>If you dont we also do custom designs (for a price of course) 
+			</p>
+	</section>
+	<section class="sidebar">
+		<img src="img/ralph.png">
+	</section>
+<!--- END BANNER WRAPPER -->
+<div class="clearfix"></div>
+
+<!--- START BANNER WRAPPER -->
+	<div id="banner-wrapper">
+		
+		</section>
+			<section class="one-third">
+				<img src="img/rando-img-1.png">
+					<h3>	Quantity	</h3>
+					<p>we always have what you're looking for.</p>
+					
+			</section>
+			</section>
+			<section class="one-third">
+				<img src="img/rando-img-2.png">
+					<h3>	for anyone	</h3>
+					<p>	No matter who you may be.</p>
+					
+			</section>
+			</section>
+			<section class="one-third">
+				<img src="img/rando-img-3.png">
+					<h3>	Quality	</h3>
+					<p>	But dont worry we dont sacrifce our quality.</p>
+			</section>
+	</div>
+	</section>
+<!--- END BANNER WRAPPER -->
+<footer>
+			<section>
+				<section class="one-fourth">
+				<a href="https://www.facebook.com/"><img src="img/facebookicon.png"></a>
+				</section>
+				<section class="one-fourth">
+				<a href="https://www.twitter.com/"><img src="img/twittericon.png"></a>
+				</section>
+				<section class="one-fourth">
+				<a href="https://www.instagram.com/"><img src="img/instagramicon.png"></a>
+				</section>
+				<section class="one-fourth">
+				<a href="https://www.youtube.com/"><img src="img/youtubeicon.png"></a>
+				</section>
+			</section>	
+	<p>	&copy; Look@Me.com	</p>
+</footer>
+</body>
+</html>
